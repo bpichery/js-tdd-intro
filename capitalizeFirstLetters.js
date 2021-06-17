@@ -16,18 +16,18 @@ for(let word in input){
 
 
 
-// Check that capitalizeFirst transforms javaScript correctly
+// Check that capitalizeFirst transforms javaScript correctly// 
 
 assert.strictEqual(capitalizeFirstLetters('javaScript'), 'JavaScript');
 
 assert.strictEqual(capitalizeFirstLetters('resiste prouve que tu existe'), 'Resiste Prouve Que Tu Existe');
 
 
-// Check that it works for a 1-character string
+// Check that it works for a 1-character string// 
 
-assert.strictEqual(capitalizeFirstLetters('z'), 'Z');
+assert.strictEqual(capitalizeFirstLetters('a'), 'A');
 
 
-// Check that it works for an empty string
+// Check that it works for an empty string// 
 
 assert.strictEqual(capitalizeFirstLetters(''), '');
